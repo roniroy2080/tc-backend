@@ -5,7 +5,7 @@ const express = require("express"),
 app.use(
   cors({
     methods: ["POST", "GET"],
-    origin: ["https://tclottery.vercel.app", "http://localhost:3000"],
+    origin: ["https://tclottery.vercel.app"],
     credentials: !0,
   })
 ),
